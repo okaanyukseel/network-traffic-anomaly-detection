@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Ortamlar
+venv/
+.venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Veri dosyaları (depoda yer almayan büyük CSV)
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
