@@ -57,6 +57,7 @@ test_labels = df["Label_binary"]   # sadece değerlendirme amaçlı
 # NaN ve sonsuzları temizle
 train_df = train_df.replace([np.inf, -np.inf], np.nan).dropna()
 test_df = test_df.replace([np.inf, -np.inf], np.nan).dropna()
+test_labels = test_labels.loc[test_df.index]   # etiketleri temizlenen satırlarla hizala
 
 # ---------------------------------------------------
 # 3. SCALE
